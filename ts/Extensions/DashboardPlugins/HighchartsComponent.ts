@@ -624,7 +624,7 @@ namespace HighchartsComponent {
          */
         chartOptions?: Options;
         /**
-         * The name of class that is applied to the chart's container.
+         * The name of a class that is applied to the chart's container.
          */
         chartClassName?: string;
         /**

@@ -364,11 +364,11 @@ namespace DataGridComponent {
         extends Component.ComponentOptions,
         EditableOptions {
         /**
-         * The name of class that is applied to the data grid container.
+         * The name of a class that is applied to the data grid container.
          */
         dataGridClassName?: string;
         /**
-         * The name of id that is applied to the data grid container.
+         * The name of the id that is applied to the data grid container.
          */
         dataGridID?: string;
         onUpdate: typeof DataGridComponent.onUpdate

@@ -900,7 +900,7 @@ namespace Component {
 
     export interface ComponentOptions extends EditableOptions {
         /**
-         * Instance of cell, where component is attached.
+         * Instance of the cell where the component is attached.
          */
         parentCell?: Cell;
         /**
@@ -909,7 +909,7 @@ namespace Component {
          */
         parentElement: HTMLElement | string;
         /**
-         * The name of class that is applied to the component's container.
+         * The name of the class that is applied to the component's container.
          */
         className?: string;
         /**
@@ -920,7 +920,7 @@ namespace Component {
         /** @internal */
         navigationBindings?: NavigationBindingsOptionsObject[];
         /**
-         * Events attached to the component : `mount`, `unmount`.
+         * Events attached to the component: `mount`, `unmount`.
          */
         events?: Record<string, Function>;
         /** @internal */
