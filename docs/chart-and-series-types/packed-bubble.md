@@ -142,11 +142,6 @@ plotOptions: {
         useSimulation: true
     }
 }
-plotOptions: {
-    packedbubble: {
-        useSimulation: false
-    }
-}
 ```
 
 <iframe style="width: 100%; height: 860px; border: none;" src=https://www.highcharts.com/samples/embed/highcharts/series-packedbubble/spiral allow="fullscreen"></iframe>
